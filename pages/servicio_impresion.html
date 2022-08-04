@@ -32,7 +32,7 @@
 <body>
     <header class="header">
         <!-- Menú de navegación -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-oscuro-custom">
             <div class="container-fluid">
                 <!-- Logo -->
                 <a class="navbar-brand" href="../index.html">
@@ -57,142 +57,149 @@
         </nav>
     </header>
 
-    <main class="text-bg-dark pb-4">
+    <main class="bg-oscuro-custom text-white">
         <!-- Carátula Pasos -->
         <section>
             <div>
-                <img class="vw-100 mb-3" src="../imgs/messirve.jpg" alt="Bustos messirve">
+                <img class="vw-100" src="../imgs/messirve.jpg" alt="Bustos messirve">
             </div>
-            <div class="animate text-center">
+            <div class="animate text-center py-4">
                 <h1 class="custom_h1_title px-5">Servicio de Impresión 3D</h1>
                 <p class="custom_h1_subtitle px-5">¡Mandanos tu proyecto! A continuación te contamos cómo
                     hacerlo.</p>
             </div>
         </section>
 
-        <div id="paso_a_paso" class="container">
-            <h2 class="titulo_paso_a_paso p-4">Paso a Paso</h2>
+        <div class="container-fluid bg-semioscuro-custom pb-4">
+            <div id="paso_a_paso" class="container">
+                <h2 class="titulo_paso_a_paso p-4">Paso a Paso</h2>
 
-
-            <!-- Paso 1 -->
-            <div class="row featurette align-items-center justify-content-around px-5">
-                <div class="col-lg-5">
-                    <p class="lead lead_custom"><span>Asegurate que tenés un archivo formato .stl listo para
-                            enviar.</span> Si no tenés el
-                        archivo listo, ya sea porque tenés una idea pero no un modelo 3D, o por cualquier otra razón,
-                        consultá nuestras otras opciones de servicios de diseño, modelado y escaneo 3D.</p>
-                </div>
-                <div class="col-lg-6">
-                    <img src="../imgs/paso_1.jpg" class="d-block w-100" alt="stl">
-                </div>
-            </div>
-
-            <hr class="featurette-divider my-4">
-
-            <!-- Paso 2 -->
-            <div class="row featurette align-items-center justify-content-around px-5">
-                <div class="col-lg-5">
-                    <p class="lead lead_custom">Chequeá que el modelo sea un sólido cerrado, ya que el modelo <span>NO
-                            debe tener superficies sueltas.</span></p>
-                </div>
-                <div class="col-lg-6">
-                    <img src="../imgs/paso_2.jpg" class="d-block w-100" alt="modelado con errores">
-                </div>
-            </div>
-
-            <hr class="featurette-divider my-4">
-
-            <!-- Paso 3 -->
-            <div class="row featurette align-items-center justify-content-around px-5">
-                <div class="col-lg-5">
-                    <p class="lead lead_custom">Revisá también que la <span>escala del modelo exportado</span> es la
-                        escala con la que se quiere imprimir.</p>
-                </div>
-                <div class="col-lg-6">
-                    <img src="../imgs/paso_3.jpg" class="d-block w-100" alt="escala">
-                </div>
-            </div>
-
-            <hr class="featurette-divider my-4">
-
-            <!-- Paso 4 -->
-            <div class="row featurette align-items-center justify-content-around px-5">
-                <div class="col-lg-5">
-                    <p class="lead lead_custom">Se recomienda que al exportar el archivo, en caso de hacerlo el cliente,
-                        se corrobore que la
-                        <span>cantidad de polígonos</span> del archivo resultante sea suficiente como para cubrir la
-                        superficie de
-                        forma visiblemente continua. En caso contrario, los triángulos que componen la malla generada
-                        serán visibles en la impresión.
-                    </p>
-                </div>
-                <div class="col-lg-6">
-                    <img src="../imgs/paso_4.jpg" class="d-block w-100" alt="densidad polígonos">
-                </div>
-            </div>
-
-            <hr class="featurette-divider my-4">
-
-            <!-- Paso 5 -->
-            <div class="row featurette align-items-center justify-content-around text-center text-xl-start px-xl-5">
-                <div class="col-xl-5">
-                    <p class="container lead lead_custom">Elegí en qué material de los que trabajamos vas a imprimir. Podés verlos
-                        a continuación: </p>
-                </div>
-                <div class="col-xl-6">
-                    <!-- Tabla comparativa de materiales -->
-                    <div class="container contenedor_tabla_mat">
-                        <table class="tabla_mat">
-                            <thead>
-                                <tr>
-                                    <th>Material</th>
-                                    <th>Resistencia rayos UV</th>
-                                    <th class="d-none d-sm-table-cell">Resistencia Tº</th>
-                                    <th>Flexibilidad</th>
-                                    <th class="d-none d-sm-table-cell">Costo de Impresión</th>
-                                </tr>
-                            </thead>
-
-                            <tbody>
-                                <tr>
-                                    <td>PLA</td>
-                                    <td>No</td>
-                                    <td class="d-none d-sm-table-cell">Hasta 60º</td>
-                                    <td>Media</td>
-                                    <td class="d-none d-sm-table-cell">$</td>
-                                </tr>
-                                <tr>
-                                    <td>PETG</td>
-                                    <td>Sí</td>
-                                    <td class="d-none d-sm-table-cell">Hasta 85º</td>
-                                    <td>Baja</td>
-                                    <td class="d-none d-sm-table-cell">$$</td>
-                                </tr>
-                                <tr>
-                                    <td>TPU</td>
-                                    <td>Sí</td>
-                                    <td class="d-none d-sm-table-cell">Hasta 60º</td>
-                                    <td>Alta</td>
-                                    <td class="d-none d-sm-table-cell">$$$$</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                <!-- Paso 1 -->
+                <div class="row featurette align-items-center justify-content-around px-5">
+                    <div class="col-lg-5">
+                        <p class="lead lead_custom"><span>Asegurate que tenés un archivo formato .stl listo para
+                                enviar.</span> Si no tenés el
+                            archivo listo, ya sea porque tenés una idea pero no un modelo 3D, o por cualquier otra
+                            razón,
+                            consultá nuestras otras opciones de servicios de diseño, modelado y escaneo 3D.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="../imgs/paso_1.jpg" class="d-block w-100" alt="stl">
                     </div>
                 </div>
-            </div>
 
-            <hr class="featurette-divider my-4">
+                <hr class="featurette-divider my-4">
 
-            <!-- Paso Cierre -->
-            <div class="text-center py-5">
-                <a href="" class="paso_cierre link_claro">
-                    Enviá tu archivo para comenzar tu proyecto cotizando la impresión.
-                </a>
+                <!-- Paso 2 -->
+                <div class="row featurette align-items-center justify-content-around px-5">
+                    <div class="col-lg-5">
+                        <p class="lead lead_custom">Chequeá que el modelo sea un sólido cerrado, ya que el modelo
+                            <span>NO
+                                debe tener superficies sueltas.</span></p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="../imgs/paso_2.jpg" class="d-block w-100" alt="modelado con errores">
+                    </div>
+                </div>
+
+                <hr class="featurette-divider my-4">
+
+                <!-- Paso 3 -->
+                <div class="row featurette align-items-center justify-content-around px-5">
+                    <div class="col-lg-5">
+                        <p class="lead lead_custom">Revisá también que la <span>escala del modelo exportado</span> es la
+                            escala con la que se quiere imprimir.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="../imgs/paso_3.jpg" class="d-block w-100" alt="escala">
+                    </div>
+                </div>
+
+                <hr class="featurette-divider my-4">
+
+                <!-- Paso 4 -->
+                <div class="row featurette align-items-center justify-content-around px-5">
+                    <div class="col-lg-5">
+                        <p class="lead lead_custom">Se recomienda que al exportar el archivo, en caso de hacerlo el
+                            cliente,
+                            se corrobore que la
+                            <span>cantidad de polígonos</span> del archivo resultante sea suficiente como para cubrir la
+                            superficie de
+                            forma visiblemente continua. En caso contrario, los triángulos que componen la malla
+                            generada
+                            serán visibles en la impresión.
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="../imgs/paso_4.jpg" class="d-block w-100" alt="densidad polígonos">
+                    </div>
+                </div>
+
+                <hr class="featurette-divider my-4">
+
+                <!-- Paso 5 -->
+                <div class="row featurette align-items-center justify-content-around text-center text-xl-start px-xl-5">
+                    <div class="col-xl-5">
+                        <p class="container lead lead_custom">Elegí en qué material de los que trabajamos vas a
+                            imprimir. Podés verlos
+                            a continuación: </p>
+                    </div>
+                    <div class="col-xl-6">
+                        <!-- Tabla comparativa de materiales -->
+                        <div class="container contenedor_tabla_mat">
+                            <table class="tabla_mat">
+                                <thead>
+                                    <tr>
+                                        <th>Material</th>
+                                        <th>Resistencia rayos UV</th>
+                                        <th class="d-none d-sm-table-cell">Resistencia Tº</th>
+                                        <th>Flexibilidad</th>
+                                        <th class="d-none d-sm-table-cell">Costo de Impresión</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>PLA</td>
+                                        <td>No</td>
+                                        <td class="d-none d-sm-table-cell">Hasta 60º</td>
+                                        <td>Media</td>
+                                        <td class="d-none d-sm-table-cell">$</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PETG</td>
+                                        <td>Sí</td>
+                                        <td class="d-none d-sm-table-cell">Hasta 85º</td>
+                                        <td>Baja</td>
+                                        <td class="d-none d-sm-table-cell">$$</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TPU</td>
+                                        <td>Sí</td>
+                                        <td class="d-none d-sm-table-cell">Hasta 60º</td>
+                                        <td>Alta</td>
+                                        <td class="d-none d-sm-table-cell">$$$$</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="featurette-divider my-4">
+
+                <!-- Paso Cierre -->
+                <div class="text-center py-5">
+                    <a href="" class="paso_cierre link_claro">
+                        Enviá tu archivo para comenzar tu proyecto cotizando la impresión.
+                    </a>
+                </div>
             </div>
+        </div>
     </main>
 
     <!-- Footer -->
-    <section class="container-fluid footer-dark bg-dark">
+    <section class="container-fluid footer-dark bg-oscuro-custom">
         <footer class="d-flex flex-column flex-md-row justify-content-around align-items-center py-3">
             <div class="d-flex align-items-center text-center">
                 <p class="mb-2 mb-md-0 text-muted">&copy; 2022 Piola3D. Todos los derechos reservados.</p>
