@@ -1,0 +1,44 @@
+index.html
+    - Agregué keywords: Piola3D, Piola 3D, Impresión 3d, 3d printing, Impresión 3d argentina, Impresión 3d buenos aires, Impresión 3d caba, Argentina, Buenos Aires, CABA, Modelos, 3D, Tecnología, Servicio impresión 3d, Creatividad, FADU, Diseño, Diseño industrial
+
+    - Agregué description: Piola3D es un emprendimiento de impresión 3D que ofrece productos y servicios, basado en CABA, Buenos Aires, Argentina.
+
+    - Agregué favicon
+
+    - Modifiqué title: Piola3D - Impresión 3D | Inicio
+
+servicio_impresion.html
+    - Agregué keywords: Piola3D, Piola 3D, Impresión 3d, 3d printing, Impresión 3d argentina, Impresión 3d buenos aires, Impresión 3d caba, Argentina, Buenos Aires, CABA, Modelos, 3D, Servicio impresión 3d, Creatividad, FADU, Diseño, Diseño industrial, Envíos, STL, Filamento, Materiales, Archivo impresión 3d, PLA, PETG, Flex, Flexible, Resistencia, Cómo imprimir, Paso a paso, Guía impresión 3d, Tutorial, Polígonos, Exportar, Cura, Prusaslicer, Proyecto, Maqueta, Estudio, Entrega, Prototipo
+
+    - Agregué description: Piola3D ofrece servicio de impresión 3D a pedido en CABA, Buenos Aires, Argentina.
+
+    - Agregué favicon
+
+    - Modifiqué title: Piola3D | Servicio de Impresión 3D
+
+otros_servicios.html
+    - Agregué keywords: Piola3D, Piola 3D, Impresión 3d, 3d printing, Impresión 3d argentina, Impresión 3d buenos aires, Impresión 3d caba, Argentina, Buenos Aires, CABA, Modelos, Modealdo 3D, 3D, Creatividad, FADU, Diseño, Diseño industrial, Archivo impresión 3d, Proyecto, Idea, Escaneo 3d, 3d scan, Replica, Repuesto
+
+    - Agregué description: Piola3D ofrece servicio de diseño, modelado 3d y escaneo 3d a pedido en CABA, Buenos Aires, Argentina.
+
+    - Agregué favicon
+
+    - Modifiqué title: Piola3D | Otros Servicios: Diseño/Modelado 3D & Escaneo 3D
+    
+info.html
+    - Agregué keywords: Piola3D, Piola 3D, Impresión 3d, 3d printing, Qué es impresión 3d, Información, Videos, Explicación, Tecnología, Innovación, Modelos, Modealdo 3D, 3D, Creatividad, Proceso, Producción
+
+    - Agregué description: Piola3D explica, informa y asesora sobre el mundo de la impresión 3d y las tecnologías de manufactura aditiva.
+
+    - Agregué favicon
+
+    - Modifiqué title: Piola3D | Información: ¿Qué es la Impresión 3D?
+
+galeria.html
+    - Agregué keywords: Piola3D, Piola 3D, Impresión 3d, 3d printing, Impresión 3d argentina, Impresión 3d buenos aires, Impresión 3d caba, Argentina, Buenos Aires, CABA, Modelos, 3D, Servicio impresión 3d, Creatividad, FADU, Diseño, Diseño industrial, STL, Filamento, Materiales, Archivo impresión 3d, PLA, PETG, Flex, Proyecto, Maqueta, Estudio, Entrega, Galería, Imágenes, Fotos, Prototipo
+
+    - Agregué description: Piola3D mirá los proyectos de impresión 3d realizados en la galería.
+
+    - Agregué favicon
+
+    - Modifiqué title: Piola3D | Galería: Mirá Nuestros Proyectos
