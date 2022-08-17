@@ -1,15 +1,14 @@
 /* -- Animations -- */
-.animate {
-    animation-name: agrandar;
-    animation-duration: 1.5s;
-    animation-timing-function: ease;
-}
-
 a{
     transition-duration: .2s;
     transition-timing-function: ease;
 }
 
+.animate {
+    animation-name: agrandar;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+}
 
 @keyframes agrandar {
 
